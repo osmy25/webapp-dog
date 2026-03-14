@@ -1,0 +1,23 @@
+
+
+
+
+.nextpic {
+  display: block;
+  margin: 1rem auto;
+
+  padding: 0.6rem 1.2rem;
+
+  font-size: 1.2rem;
+  font-weight: bold;
+
+  background-color: var(--text-h);
+  color: white;
+
+  border: none;
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  transition: background 0.2s, transform 0.1s;
+}
