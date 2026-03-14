@@ -1,8 +1,8 @@
 import "./Header.css"
 
 
-export default function Header() {
+export default function Header({text}) {
     return(
-        <h1> Best boy Viggo</h1>
+        <h1> {text}</h1>
     )
 }

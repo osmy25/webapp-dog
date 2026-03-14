@@ -1,11 +1,11 @@
-import viggo from "./../../assets/viggo.jpg";
 import "./PictureFrame.css"
 
 
-export default function PictureFrame() {
+export default function PictureFrame({src, alt}) {
     return(
         <div className="picture">
-            <img src={viggo} alt="picture of best boy Viggo"></img>
+            <img src={src} alt={alt}></img>
+            <p className="caption">{alt}</p>
         </div>
     )
 }
