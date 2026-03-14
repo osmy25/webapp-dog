@@ -1,10 +1,10 @@
 import './App.css'
-import Main from "./components/Main/Main"
+import Layout from "./components/Layout/Layout"
 
 function App() {
   return(
     <div>
-      <Main/  >
+      <Layout/  >
     </div>
   )
 }
