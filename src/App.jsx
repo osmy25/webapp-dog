@@ -1,11 +1,17 @@
-import './App.css'
+import "./App.css"
+import { Routes, Route } from "react-router-dom"
 import Layout from "./components/Layout/Layout"
+import Home from "./pages/Home"
+import Gallery from "./pages/Gallery"
 
 function App() {
-  return(
-    <div>
-      <Layout/  >
-    </div>
+  return (
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="gallery" element={<Gallery />} />
+      </Route>
+    </Routes>
   )
 }
 
