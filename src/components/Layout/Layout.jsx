@@ -1,6 +1,7 @@
 import Header from "../Header/Header"
 import Footer from "../Footer/Footer"
 import { Link, Outlet } from "react-router-dom"
+import "./Layout.css"
 
 export default function Layout() {
   return (
@@ -9,12 +10,12 @@ export default function Layout() {
 
       <main>
         <Outlet />
-      <nav>
+      </main>
+      <nav className="navbar">
         <Link to="/">Start</Link>
         {" | "}
         <Link to="/gallery">Gallery</Link>
       </nav>
-      </main>
 
       <Footer />
     </div>
