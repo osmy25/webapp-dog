@@ -109,4 +109,5 @@ p {
 
 body {
   background-color: #f4f3ec;
+  color: var(--text)
 }
