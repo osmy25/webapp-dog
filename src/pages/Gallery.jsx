@@ -1,5 +1,6 @@
 import { useState } from "react"
 import PictureFrame from "../components/PictureFrame/PictureFrame"
+import "./Gallery.css"
 import Button from "../components/Buttons/Button"
 
 import viggo from "../assets/viggo.jpg"
