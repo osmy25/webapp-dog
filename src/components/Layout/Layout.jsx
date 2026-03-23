@@ -15,6 +15,8 @@ export default function Layout() {
         <Link to="/">Start</Link>
         {" | "}
         <Link to="/gallery">Gallery</Link>
+        {" | "}
+        <Link to="/editor">Editor</Link>
       </nav>
 
       <Footer />
